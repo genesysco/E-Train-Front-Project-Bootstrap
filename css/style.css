@@ -1,0 +1,62 @@
+@font-face {
+	font-family: 'vazir';
+	src: url('../fonts/Vazir.woff') format('woff');
+}
+
+body {
+	font-family: vazir;
+	background-color: #f8f9fa;
+}
+:root {
+	--darkPrimary: rgb(12, 46, 96);
+	--orange: #ff663b;
+}
+.dp {
+	color: var(--darkPrimary);
+}
+.navbar-nav>li {
+	margin-left: 35px;
+}
+
+header h3 {
+	color: var(--darkPrimary);
+	font-size: 55px;
+	font-weight: 700;
+}
+
+#counter {
+	background: linear-gradient(to top, rgb(238, 57, 15), rgb(249, 183, 0));
+	margin: 200px 0;
+}
+
+#counter span {
+	font-size: 85px;
+}
+
+.course-btn {
+	background-color: var(--orange);
+}
+
+.o {
+	color: var(--orange);
+}
+
+#advance {
+	margin: 100px 0;
+}
+
+footer {
+	background-color: #f7f7f7;
+}
+
+.options:hover > span {
+	background-color: orange !important;
+}
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+	
+}
